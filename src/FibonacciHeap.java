@@ -143,6 +143,24 @@ public class FibonacciHeap {
 		}
 		for (HeapNode tmp = heap2.first; tmp != null; tmp = tmp.next)
 			tmp.parent = null;
+		recomputeMinPointer();
+	}
+
+	private void recomputeMinPointer() {
+		this.beforeMin = null;
+		if (this.first == null)
+			return;
+		HeapNode min = this.first;
+		HeapNode before = null;
+		HeapNode previous = this.first;
+		for (HeapNode current = this.first.next; current != null; current = current.next) {
+			if (current.key < min.key) {
+				min = current;
+				before = previous;
+			}
+			previous = current;
+		}
+		this.beforeMin = before;
 	}
 
 	/**

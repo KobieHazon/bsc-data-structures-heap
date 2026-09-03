@@ -1,0 +1,7 @@
+/build/
+*.class
+*.zip
+*.pdf
+*.docx
+.DS_Store
+._*
