@@ -1,7 +1,7 @@
 # BSc Data Structures - Fibonacci Heap
 
 - Authors: Kobie Hazon and Itzchak Harel.
-- Course: BSc Computer Science.
+- Course: Data Structures.
 
 ## Contents
 
