@@ -5,3 +5,7 @@
 *.docx
 .DS_Store
 ._*
+
+!/assignment/fibonacci-heap-reference.pdf
+
+!/report/heap-report.pdf

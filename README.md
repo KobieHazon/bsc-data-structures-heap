@@ -2,8 +2,6 @@
 
 - Authors: Kobie Hazon and Itzchak Harel.
 - Course: BSc Computer Science.
-- Available copy: February 2019.
-- Assignment brief: The exact matching handout has not been confirmed.
 
 ## Contents
 
@@ -33,3 +31,8 @@ To remove generated files:
 ```bash
 make clean
 ```
+
+## Assignment and report
+
+- `assignment/fibonacci-heap-reference.pdf`: earlier course handout with the same heap API and measurement exercises.
+- `report/heap-report.pdf`: my report with Itzchak Harel, including implementation details and measurement results.
