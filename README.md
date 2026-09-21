@@ -1,6 +1,9 @@
 # BSc Data Structures - Fibonacci Heap
 
-A historical archive of my CS BSc coursework.
+- Authors: Kobie Hazon and Itzchak Harel.
+- Course: BSc Computer Science.
+- Available copy: February 2019.
+- Assignment brief: The exact matching handout has not been confirmed.
 
 ## Contents
 
@@ -12,13 +15,6 @@ Implemented operations include:
 - Counters representation by tree degree.
 - Static total link and cut counters.
 - Potential calculation as number of trees plus twice the number of marked nodes.
-
-## Provenance
-
-- Authors: Kobie Hazon and Itzchak Harel.
-- Era: CS BSc.
-- Last recovered work: February 2019 archive copy of a data structures practical assignment.
-- Original handout status: the exact matching handout was not conclusively recovered in the canonical source folder.
 
 ## Tech Stack
 
